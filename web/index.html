@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Barbara Muller Mediation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="canvas-shell" aria-hidden="true"></div>
+
+      <header class="topbar">
+        <div class="topbar-group">
+          <button id="lang-button" class="chip-button" type="button">FR</button>
+          <button id="summary-button" class="chip-button" type="button">Session</button>
+        </div>
+        <div class="topbar-group">
+          <button id="before-button" class="chip-button" type="button">A</button>
+          <button id="after-button" class="chip-button" type="button">B</button>
+        </div>
+      </header>
+
+      <aside id="summary-panel" class="summary-panel is-hidden" aria-live="polite"></aside>
+
+      <section id="sheet" class="sheet" aria-live="polite">
+        <div id="sheet-step" class="sheet-step"></div>
+        <h1 id="sheet-title" class="sheet-title"></h1>
+        <p id="sheet-copy" class="sheet-copy"></p>
+        <div id="controls" class="controls"></div>
+      </section>
+
+      <section id="modal" class="modal is-hidden" aria-live="polite"></section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js" defer></script>
+    <script src="./sketch.js" defer></script>
+  </body>
+</html>
