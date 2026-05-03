@@ -1,0 +1,16 @@
+version,feature,status,keys
+V6,mode kiosk / exposition,implemented,K
+V6,visual archive PNG,implemented,G
+V6,before-after comparison,implemented,N/F/V
+V6,FR-DE-EN language switch,implemented,B
+V6,low-tech printable fiches,implemented,docs_lowtech
+V6,minimal no-text mode,implemented,I
+V6,contextual micro-questions,implemented,automatic
+V6,mouse trail ghost trace,implemented,Q
+V6,breathing UI,implemented,automatic
+V6,word pulse feedback,implemented,automatic
+V6,attention shift statement,implemented,V
+V6,poetic label,implemented,Y
+V6,score / attention partition,implemented,U
+V6,slow looking timer,implemented,automatic in work 3 silence
+V6,soft reset fade,implemented,R
