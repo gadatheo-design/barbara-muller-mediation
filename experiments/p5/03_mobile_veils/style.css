@@ -1,0 +1,67 @@
+:root {
+  --paper: #f4f0e8;
+  --ink: #2f291f;
+  --muted: #766a5e;
+  --frame: #d8cfc1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+  padding: 16px;
+}
+
+.page {
+  width: min(100%, 720px);
+  margin: 0 auto;
+}
+
+.panel {
+  margin-bottom: 14px;
+}
+
+.kicker {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
+  font-weight: normal;
+}
+
+.instruction {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.sketch-shell {
+  border: 1px solid var(--frame);
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 16px 40px rgba(71, 57, 42, 0.08);
+}
+
+.sketch-shell canvas {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  touch-action: none;
+}
