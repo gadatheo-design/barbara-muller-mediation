@@ -9,6 +9,8 @@ Le dépôt contient maintenant deux surfaces distinctes :
 - une version **Processing 4** pour le prototype original d’exposition
 - une version **p5.js mobile-first** dans `web/`, prévue pour un déploiement statique via GitHub Pages
 
+Le projet doit toutefois être lu aujourd’hui comme un **laboratoire de médiation** plus large, avec plusieurs formats publics, locaux, documentaires et expérimentaux.
+
 ## Structure
 
 ```text
@@ -26,6 +28,21 @@ DEPLOYMENT.md
 docs/WEB_DEPLOYMENT.md
 docs/BEST_CODEX_PROMPTS.md
 ```
+
+## Orientation rapide
+
+Pour s’orienter dans le dépôt :
+
+- [Carte maîtresse du projet](docs/MASTER_MAP.md)
+- [Prompts GPT-5.5 recommandés](docs/BEST_CODEX_PROMPTS.md)
+- [Matrice comparative des formats](docs/COMPARATIVE_MATRIX.md)
+- [Protocole de test](docs/TEST_PROTOCOL.md)
+
+Pour lire le projet comme laboratoire :
+
+- [Documentation laboratoire HKB](docs/laboratoire-hkb/README.md)
+- [Catalogue des expérimentations](docs/experiments-catalogue/README.md)
+- [Présentation HKB](docs/presentation-hkb/README.md)
 
 ## Lancer le prototype Processing
 
@@ -81,7 +98,15 @@ Voir aussi :
 - `DEPLOYMENT.md`
 - `docs/WEB_DEPLOYMENT.md`
 
-## Commandes principales
+## HKB Laboratory Documentation
+
+- [Documentation laboratoire HKB](docs/laboratoire-hkb/README.md)
+- [Présentation HKB](docs/presentation-hkb/README.md)
+- [Catalogue des expérimentations](docs/experiments-catalogue/README.md)
+
+## Raccourcis Processing
+
+Le tableau ci-dessous concerne la version **Processing 4** du prototype d’exposition.
 
 | Touche | Fonction |
 |---|---|
@@ -103,6 +128,18 @@ Voir aussi :
 | `T` | retour silencieux |
 | `R` | reset doux |
 | `S` | capture |
+
+## Contrôles web
+
+La version `web/` reste principalement pensée pour le toucher mobile. Elle conserve quelques raccourcis clavier de secours :
+
+| Touche | Fonction |
+|---|---|
+| `L` | changer la langue |
+| `A` | activer / désactiver le point A |
+| `B` | activer / désactiver le point B |
+| `S` | ouvrir / fermer le résumé test si disponible |
+| `Flèches` | déplacer le carré mobile dans l’œuvre 2 |
 
 ## Codex
 
